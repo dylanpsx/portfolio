@@ -1,0 +1,172 @@
+/* Styles pour les écrans larges */
+@media screen and (min-width: 901px) {
+  body {
+    font-size: 1.2em;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  section {
+    padding: 100px;
+  }
+
+  .accueil-photos img {
+    width: 25%;
+    height: auto;
+    margin: auto;
+    
+  }
+
+/* Page a-propos */
+
+  .carre-contenu {
+    width: 50%;
+    margin-bottom: 80px;
+  }
+
+  .carre-contenu+div {
+    text-align: right;
+  }
+
+  table {
+    width: 70%;
+    margin: auto;
+  }
+
+  h2 {
+    margin-bottom: 50px;
+  }
+
+  /* Page portfolio */
+
+  .portfolio-section-photos {
+    padding: 80px;
+  }
+
+  .portfolio-section-photos h2 {
+    margin-bottom: 80px;
+  }
+
+  .project {
+    margin: 20px;
+  }
+
+
+}
+
+/* Styles pour les tablettes et les téléphones */
+@media screen and (max-width: 900px) {
+  header,
+  footer {
+    padding: 10px 30px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+
+  .accueil-introduction {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .accueil-introduction div {
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+  }
+
+  .accueil-introduction img {
+   display: none;
+  }
+
+  .accueil-photos div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .accueil-photos img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+  }
+
+  .section-contact form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-nom-email {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form-column {
+    flex: 0 0 50%;
+    padding: 0 5px;
+  }
+
+  .cta {
+    padding: 15px 25px;
+  }
+
+/* Page a-propos */
+
+    .carre-contenu {
+    width: 80%;
+    padding: 30px;
+    margin-bottom: 50px;
+    border: none;
+  }
+
+  .carre-contenu h2 {
+    margin-top: 20px;
+  }
+
+  .carre-contenu ul {
+    margin-top: 20px;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  td,
+  th {
+    padding: 10px;
+  }
+
+  /* Page portfolio */
+
+ .portfolio-section-photos {
+    padding: 40px;
+  }
+
+  .portfolio-section-photos h2 {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .project {
+    display: block;
+    margin: 20px auto;
+  }
+
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-overlay {
+    padding: 0.5rem;
+  }
+}
